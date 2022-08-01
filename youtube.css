@@ -1,0 +1,66 @@
+/* .container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 10fr;
+    grid-row: 3;
+    /* grid-template-columns: auto; */
+    /* grid-column: 1; */
+ */
+#searchbar{
+    background-color: rgb(232, 253, 4);
+}
+#logos{
+    background-color: aqua;
+}
+.stage{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100px;
+    grid-column: 2;
+    grid-row: 1; 
+    background-color: brown;
+}
+#side-bar{
+    background-color: olivedrab;
+}
+/* #content{
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: 1fr 1fr 3fr;
+    grid-row: 3; 
+    background-color: rgb(85, 85, 227);
+} */
+#seacrhbox{
+    background-color: grey;
+}
+#links{
+    background-color: rgb(30, 1, 30);
+}
+#images{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    border-collapse: collapse;
+}
+#first{
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    grid-column: 4;
+    grid-row: 1; */
+    background-color:white;
+}
+/* #second{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    grid-row: 1;
+    grid-column: 4; 
+    background-color: lawngreen;
+} */
+img{
+    width: 200px;
+    height: 200px;
+}
